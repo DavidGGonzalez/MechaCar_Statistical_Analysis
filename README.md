@@ -38,6 +38,7 @@ __No__, according to the `Pr(>|t|)` value the __intercept__ indicates a signific
 __Yes__, `R-squared` is __0.7149__ indicating a strong correlation.
 
 
+
 ## Deliverable #2
 
 Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
@@ -68,3 +69,14 @@ After reviewing individual t-test results (by Manufacturing Lot), I've found the
 ## Deliverable #4
 
 Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+
+I've to start by saying I'm not a car fan, therefore, I would require a knowledgeable person's opinion on this subject, but I'll use a wild guess.
+
+- __Metric__: Number of cylinders
+- __Hypothesis__
+    * *NULL*: There is no difference between MechaCar cars and other manufacturers cars.
+    * *Alternate*: There is a difference
+- __Statistical Test__: `Multiple Linear Regresion` including __mpg__ and the __No of cylinders__.
+- __Data__: MechaCar and other manufacturers car's definition, including, all data provided for the MechaCar cars plus # of cylinders.
+
+
