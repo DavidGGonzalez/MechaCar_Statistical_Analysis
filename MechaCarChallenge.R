@@ -27,3 +27,20 @@ lot_summary <- MechaCar_psi %>% group_by(Manufacturing_Lot) %>%
 lot_summary
 
 # Deliverable #3 --------------------------------------------------------------------------------------------------------
+# Overall 
+t.test(MechaCar_psi$PSI,mu=1500)
+
+# By Lot
+# - Lot1
+t.test(subset(MechaCar_psi, Manufacturing_Lot=="Lot1")$PSI, mu=1500)
+
+# - Lot2
+t.test(subset(MechaCar_psi, Manufacturing_Lot=="Lot2")$PSI, mu=1500)
+
+# - Lot3
+t.test(subset(MechaCar_psi, Manufacturing_Lot=="Lot3")$PSI, mu=1500)
+
+
+
+
+

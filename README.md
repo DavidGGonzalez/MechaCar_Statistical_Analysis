@@ -29,7 +29,7 @@ After reviewing the summary found that the `Pr(>|t|)` value for the  __vehicle_l
 
 ### Question #2:
 *Is the slope of the linear model considered to be zero? Why or why not?*
-
+git
 __No__, according to the `Pr(>|t|)` value the __intercept__ indicates a significant amount of variability.
 
 ### Question #3:
